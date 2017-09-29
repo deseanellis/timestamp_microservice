@@ -7,11 +7,11 @@ In order for this service to work, you must append to the current URL the date y
 Example
 -------------
 `https://eight-cowl.glitch.me/December%2015,%202015`
-`https://eight-cowl.glitch.me/1450137600`
+`https://eight-cowl.glitch.me/1450137600000`
 
 Returns
 -------------
 
-`{ "unix": 1450137600, "natural": "December 15, 2015" }`
+`{ "unix": 1450137600000, "natural": "December 15, 2015" }`
 
 Developed by DeSean Ellis - Free Code Camp

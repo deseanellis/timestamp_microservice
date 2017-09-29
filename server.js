@@ -27,6 +27,7 @@ app.get("/:timestamp", function (req, res) {
   var timestamp = req.params.timestamp;
   if (pattern.test(timestamp)) {
         //Is not a valid Integer
+        console.log(timestamp);
         try {
           returnDate.unix = new Date(dateFormat(timestamp, "longDate")).getTime();
           returnDate.natural = dateFormat(timestamp, "longDate");
