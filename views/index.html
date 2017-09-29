@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DeSean Ellis | Timestamp Microservice</title>
+    <meta name="description" content="DeSean Ellis | Timestamp Microservice">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>
+        Timestamp Microservice
+      </h1>
+    </div>
+
+    <section>
+      <div>
+        This microservice returns the date specificed in the URL as both a unix timestamp and a natural language date. The return format is JSON.
+        <br />
+        In order for this service to work, you must append to the current URL the date you would like returned.
+      </div>
+      <div>
+        <h2>
+          Example
+        </h2>
+        <code>
+          https://eight-cowl.glitch.me/December%2015,%202015
+          <br />
+          https://eight-cowl.glitch.me/1450137600
+        </code>
+        <h2>
+          Returns
+        </h2>
+        <code>
+          { "unix": 1450137600, "natural": "December 15, 2015" }
+        </code>
+      </div>
+    </section>
+
+    <footer>
+      <a href="https://www.freecodecamp.org/deseanellis" target="_blank">Developed by DeSean Ellis - Free Code Camp</a>
+    </footer>
+
+  </body>
+</html>
